@@ -10,6 +10,8 @@ $("#search-button").on("click", function() {
   console.log(recordsLimit);
   console.log(startYear);
   console.log(endYear);
+
+
 });
 
 
