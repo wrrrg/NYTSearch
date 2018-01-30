@@ -86,8 +86,9 @@ button {
 }
 .article {
   background: rgb(236,240,241);
-  padding: 5px;
-
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .article a {

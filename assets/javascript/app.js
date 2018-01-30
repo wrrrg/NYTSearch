@@ -41,7 +41,7 @@ $("#search-button").on("click", function() {
       var articleDiv = $("<div class='article'>");
       var fullHeadline = $("<a><h2>").text(headline).addClass('article-headline');
       fullHeadline.attr("href", articleURL);
-      var articleNum = $("<span class='article-num'>").text(num + ". ");
+      var articleNum = $("<span class='article-num'>").text(num);
       var byline = $("<p>").text(author).addClass('article-byline');
 
       articleDiv.append(articleNum);
