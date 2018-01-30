@@ -35,13 +35,16 @@ $("#search-button").on("click", function() {
       console.log(author);
       var articleURL = docs[i]["web_url"];
       console.log(articleURL);
+      var num = [i+1];
 
 
-      var articleDiv = $("<li><div class='article'>");
+      var articleDiv = $("<div class='article'>");
       var fullHeadline = $("<a><h2>").text(headline).addClass('article-headline');
       fullHeadline.attr("href", articleURL);
+      var articleNum = $("<span class='article-num'>").text(num + ". ");
       var byline = $("<p>").text(author).addClass('article-byline');
 
+      articleDiv.append(articleNum);
       articleDiv.append(fullHeadline);
       articleDiv.append(byline);
 

@@ -81,6 +81,29 @@ button {
 }
 
 /* Results Styling */
-li {
-  padding-top: 0;
+#results-appear-here {
+  color: rgb(41,63,83);
+}
+.article {
+  background: rgb(236,240,241);
+  padding: 5px;
+
+}
+
+.article a {
+  text-decoration: none;
+  color: rgb(41,63,83);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.article-num {
+  background: rgb(41,63,83);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 6px 10px;
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 5px;
 }
