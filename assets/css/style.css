@@ -12,7 +12,9 @@ h3 {
 /* Header CSS */
 
 header {
+  padding: 30px;
   margin-top: 0;
+  margin-bottom: 40px;
   background: rgb(32, 50, 88);
   color: white;
   text-align: center;
@@ -23,12 +25,12 @@ header {
 
 section {
   border: 2px solid rgb(41,63,83);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
 }
 
 input[type=text], input[type=number]{
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
   border: 1px solid rgba(150,150,150,.3);
   width: 98%;
