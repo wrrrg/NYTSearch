@@ -79,3 +79,8 @@ button {
   margin-left: 0;
   margin-right: 0;
 }
+
+/* Results Styling */
+li {
+  padding-top: 0;
+}

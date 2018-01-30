@@ -37,14 +37,12 @@ $("#search-button").on("click", function() {
       console.log(articleURL);
 
 
-      var articleDiv = $("<div>").addClass('article');
+      var articleDiv = $("<li><div class='article'>");
       var fullHeadline = $("<a><h2>").text(headline).addClass('article-headline');
       fullHeadline.attr("href", articleURL);
       var byline = $("<p>").text(author).addClass('article-byline');
 
-      articleDiv.append("<li>");
       articleDiv.append(fullHeadline);
-      articleDiv.append("</li>");
       articleDiv.append(byline);
 
       $("#results-appear-here").append(articleDiv);
