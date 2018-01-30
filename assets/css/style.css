@@ -1,0 +1,44 @@
+body {
+  width: 960px;
+  color: rgb(41,63,83);
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+/* Header CSS */
+
+header {
+  background: rgb(32, 50, 88);
+  color: white;
+  text-align: center;
+}
+
+/* Main Body CSS */
+
+section {
+  border: 2px solid rgb(41,63,83);
+  margin-bottom: 20px;
+
+}
+
+input[type=text], input[type=number]{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(150,150,150,.3);
+  width: 98%;
+}
+
+.section-title {
+  padding: 7px;
+  margin-top: 0;
+  color: white;
+  background: rgb(41,63,83);
+}
+
+/* Search Body Wrapper */
+.search-body {
+  margin: 10px;
+}
